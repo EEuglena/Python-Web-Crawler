@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@200&display=swap");
+
+body {
+	padding-top: 2rem;
+	background-color: tomato;
+	font-family: "Noto Sans", sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.post-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.post {
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	margin-bottom: 2rem;
+	position: relative;
+	left: -1.5rem;
+}
+
+.logo {
+	z-index: 1;
+	display: flex;
+	width: 3rem;
+	height: 3rem;
+	align-items: center;
+	justify-self: center;
+	position: relative;
+	left: 1.5rem;
+	border-radius: 5rem;
+	outline: 2px solid #777;
+	background-color: white;
+	overflow: hidden;
+	transition: 0.1s ease-in-out;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: cover;
+}
+
+.text {
+	display: flex;
+	padding: 1rem 0 1rem 3rem;
+	width: 30rem;
+	flex-direction: column;
+	background-color: white;
+	border-radius: 1rem;
+	cursor: pointer;
+	transition: 0.1s ease-in-out;
+}
+
+.text:hover,
+.text:hover ~ .logo {
+	transform: translateY(-0.4rem);
+}
+
+.text h2 {
+	margin: 0;
+}
+
+.text h3 {
+	margin: 0;
+	margin-bottom: 0.5rem;
+	color: #777;
+}
+
+.text p {
+	margin: 0;
+	padding: 0.1rem 0.5rem;
+	width: fit-content;
+	text-decoration: none;
+	background-color: rgb(134, 27, 0);
+	border-radius: 3rem;
+	color: white;
+	transition: 0.1s ease-in-out;
+}
+
+form {
+	width: min(60%, 30rem);
+	margin: 1rem 0 3rem 0;
+	padding: 1rem;
+	background-color: white;
+	border-radius: 5rem;
+	display: flex;
+}
+
+input {
+	width: 100%;
+	margin: 0 1rem;
+	border: none;
+	background: none;
+	font-family: "Noto Sans", sans-serif;
+	font-size: 1.2rem;
+}
+
+input:focus {
+	outline: none;
+}
+
+button {
+	border: none;
+	background: none;
+}
+
+h1 {
+	margin: 0;
+	color: white;
+}
+
+span {
+	font-style: italic;
+}

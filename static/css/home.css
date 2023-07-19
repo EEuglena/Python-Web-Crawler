@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@200&display=swap");
+
+body {
+	background-color: tomato;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	font-family: "Noto Sans", sans-serif;
+}
+
+h1 {
+	margin: 0;
+	text-align: center;
+	font-family: "Lobster", cursive;
+	font-size: 3rem;
+	font-weight: 400;
+	color: rgb(248, 255, 183);
+}
+
+h3 {
+	line-height: 2rem;
+	font-weight: 400;
+	color: white;
+}
+
+p {
+	color: white;
+}
+
+form {
+	margin: 1rem;
+	padding: 1rem;
+	background-color: white;
+	border-radius: 5rem;
+	display: flex;
+	justify-content: center;
+}
+
+input {
+	margin: 0 1rem;
+	border: none;
+	background: none;
+	font-family: "Noto Sans", sans-serif;
+}
+
+input:focus {
+	outline: none;
+}
+
+button {
+	border: none;
+	background: none;
+}
+
+span {
+	padding: 0.2rem 0.7rem;
+	background-color: #ffffffbb;
+	border-radius: 5rem;
+	font-weight: 600;
+	color: tomato;
+	cursor: pointer;
+	transition: 0.1s ease-in-out;
+}
+
+span:hover {
+	background-color: #ffffffee;
+}
+
+p:last-child {
+	position: fixed;
+	bottom: 3rem;
+	font-family: "Noto Serif";
+}
