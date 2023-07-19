@@ -65,6 +65,8 @@ button {
 }
 
 span {
+	display: inline-block;
+	margin: 0.2rem 0;
 	padding: 0.2rem 0.7rem;
 	background-color: #ffffffbb;
 	border-radius: 5rem;
